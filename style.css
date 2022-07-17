@@ -1,0 +1,64 @@
+body {
+    background-color:rgb(201, 244, 228)
+  }
+h1{
+    background: rgb(118, 158, 131);
+    color: snow;
+    border: rgb(103, 144, 123) solid;
+    margin-left: 40px;
+}
+
+
+p,h2{
+    text-align: center;
+    color:rgb(28, 116, 101)
+}
+.header{
+    background: rgb(182, 216, 193);
+    display:flex;
+    justify-content: space-between ;
+}
+.menu{
+    align-self: center;
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.item{
+    margin: 50px;
+    position: relative;
+    
+
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.2;
+}
+.footer{
+    display:flex;
+justify-content: flex-end;
+}
+a:link{
+    color:cornflowerblue
+}
+a:visited{
+    color:lightslategray
+}
